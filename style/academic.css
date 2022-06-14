@@ -1,0 +1,123 @@
+.webpage {
+    padding-top: 5px;
+    margin-left: 20px;
+    font-size: 50px;
+    color: black;
+    animation: tran 1s;
+    text-align: center;
+}
+
+p{
+    line-height: 2;
+    margin-top: 5px;
+}
+
+
+main {
+    overflow:auto;
+    }
+    
+.subtitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+article {
+    
+    float:left;
+    width:70%;
+    margin-top: 30px;
+    margin-left: 100px;
+    }
+section {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    opacity: 0.6;
+}
+
+aside{
+    margin-right: 5px;
+    float:right;
+    width:20%;
+    background-color: lightslategray;
+    }
+
+
+header h1 {
+    text-align:center;
+  
+    }
+
+
+#ad1 {
+    
+    background-image: url(../media/ad1.jpg);
+    background-size: 100%;
+    padding: 150px;
+    margin-bottom: 5px;
+    width: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+aside p {
+    animation: flashing 3s linear infinite;
+}
+
+
+#ad2 {
+    background-image: url(../media/ad2.jpg);
+    background-size: 100%;
+    padding: 150px;
+    margin-bottom: 200px;
+    width: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#ad3 {
+    background-image: url(../media/ad3.jpg);
+    background-size: 100%;
+    padding: 150px;
+    margin-bottom: 100px;
+    width: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+#gk:hover, #dip:hover, #ba:hover, #wis:hover, 
+#stick:hover, #referee:hover, #khmer:hover,
+#mandarin:hover, #english:hover
+ {
+    opacity: 1;
+    text-align: justify;
+}
+
+
+
+@keyframes tran {
+
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    } 
+    to {
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+
+@keyframes flashing {
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
